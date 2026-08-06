@@ -162,7 +162,7 @@ async function checkHealth(config: OmniConfig): Promise<boolean> {
 	try {
 		const res = await fetch(`${config.serverUrl}/v1/models`, {
 			headers: authHeaders(config),
-			signal: AbortSignal.timeout(3_000),
+			signal: AbortSignal.timeout(12_000),
 		});
 		return res.ok;
 	} catch {
