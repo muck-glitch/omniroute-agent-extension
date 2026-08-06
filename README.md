@@ -22,21 +22,13 @@ Connect to your local or remote OmniRoute server and route queries across 44+ LL
 **Oh My Pi:**
 
 ```bash
-omp install omniroute-agent-extension
-```
-
-```bash
-omp install git:github.com/md-riaz/omniroute-agent-extension
+omp install git:github.com/muck-glitch/omniroute-agent-extension
 ```
 
 **Pi Coding Agent:**
 
 ```bash
-pi install omniroute-agent-extension
-```
-
-```bash
-pi install git:github.com/md-riaz/omniroute-agent-extension
+pi install git:github.com/muck-glitch/omniroute-agent-extension
 ```
 
 ## Getting Started
